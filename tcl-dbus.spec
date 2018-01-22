@@ -10,8 +10,8 @@ Version:	2.2
 Release:	1
 License:	BSD
 Group:		Development/Languages/Tcl
-URL:		http://dbus-tcl.sourceforge.net/
-Source0:	http://downloads.sourceforge.net/dbus-tcl/dbus/%{version}/dbus-%{version}.tar.gz
+URL:		https://chiselapp.com/user/schelte/repository/dbus/home
+Source0:	dbus-%{version}.tar.gz
 BuildArch:      x86_64
 BuildRequires:	tcl-devel >= 8.5
 BuildRequires:	tcl >= 8.5
