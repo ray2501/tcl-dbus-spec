@@ -50,6 +50,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc ChangeLog README
+%{_datadir}/doc/packages/tcl-dbus/dbus.html
+%{_datadir}/doc/packages/tcl-dbus/license.terms
 %dir %{_libdir}/tcl/dbus%{version}
 %attr(755,root,root) %{_libdir}/tcl/dbus%{version}/libdbus%{version}.so
 %{_libdir}/tcl/dbus%{version}/pkgIndex.tcl
