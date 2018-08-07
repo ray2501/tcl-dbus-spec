@@ -2,7 +2,7 @@
 
 set arch "x86_64"
 set base "dbus-2.2"
-set fileurl "https://chiselapp.com/user/schelte/repository/dbus/tarball/dbus-92d71c1d63.tar.gz?uuid=92d71c1d639645ab73811e7edfd946d3e449ad695510ff6abfc1c9bff9a372c3"
+set fileurl "https://chiselapp.com/user/schelte/repository/dbus/tarball/dbus-f1a507c194.tar.gz?uuid=f1a507c194f1c4bccc88a938d87e17fd5e03dc4825cdadf75500bba5fb464d6e"
 
 set var [list wget $fileurl -O dbus.tar.gz]
 exec >@stdout 2>@stderr {*}$var
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 file delete dbus.tar.gz
 
-set var [list mv dbus-92d71c1d63 $base]
+set var [list mv dbus-f1a507c194 $base]
 exec >@stdout 2>@stderr {*}$var
 
 set var [list tar czvf $base.tar.gz $base]
