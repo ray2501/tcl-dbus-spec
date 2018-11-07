@@ -6,7 +6,7 @@
 
 Summary:	Tcl Library for Interacting with DBus
 Name:		tcl-dbus
-Version:	2.2
+Version:	3.0
 Release:	1
 License:	BSD
 Group:		Development/Languages/Tcl
