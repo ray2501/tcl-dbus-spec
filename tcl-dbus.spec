@@ -8,7 +8,7 @@ Summary:	Tcl Library for Interacting with DBus
 Name:		tcl-dbus
 Version:	3.0
 Release:	1
-License:	BSD
+License:	BSD-3-Clause
 Group:		Development/Languages/Tcl
 URL:		https://chiselapp.com/user/schelte/repository/dbus/home
 Source0:	dbus-%{version}.tar.gz
